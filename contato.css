@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+    scroll-behavior-duration: 2s; /* 2 segundos de duração da animação */
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+    background-image: linear-gradient(to right, #FFD700, #000000);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao-login{
+    width: 50%;
+    height: 60px;
+    float: right;
+}
+
+.botao-login button{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: #808080;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-top: 15px;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: #696969;
+}
+
+.botao-login button:hover{
+    background-color: transparent;
+    color: #696969;
+    font-size: 16px;
+    border-color: #000000;
+}
+
+.rede_social{
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+
+.rede_social{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+}
+.rede_social a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu_nav{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 13%;
+    position: relative;
+}
+
+nav a:hover {
+    color: #696969;
+    font-weight: bold;
+    border-color: #FFD700;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+article{
+    width: 100%;
+    height: 210px;
+    float: left;
+    margin: 0 auto;
+}
+
+#nomemarca h1{
+    width: 80%;
+    height: 45pxpx;
+    float: left;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase
+}
+
+#nomemarca{
+    font-size: 16px;
+}
+
+aside{
+    width: 100%;
+    height: 300px;
+
+}
+
+form{
+    width: 20%;
+	font-size: 14px;
+	color: black;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cadastro{
+    width: 100%;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.cadastro h2{
+    width: 80%;
+    height: 45px;
+    float: left;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase
+}
+
+.texto-input{
+	width: 97%;
+	padding-left: 2%;
+	background-color: #CCC;
+	border:none; 
+	margin-bottom: 5px;
+}
+
+.area-input{
+	width: 97%;
+	font-size: 16px;
+	resize: none; /*remove o redimensionamento*/
+	background-color: #CCC;
+}
+
+.botao-enviar{
+	background-color: #111;
+	color: #CCC;
+	border: none;
+	width: 30%;
+	height: 30px;
+    float: right;
+}
+.botao-enviar:hover{
+    background-color: #CCC;
+	color: #111;
+	border: none;
+	width: 30%;
+	height: 30px;
+    float: right;
+}
+
+
+footer{
+    width: 90%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+
+footer h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer input{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: #696969;
+}
+
+footer input:hover{
+    background-color: transparent;
+    color: #696969;
+    font-size: 16px;
+    border-color: #000000;
+}
